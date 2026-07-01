@@ -10,7 +10,9 @@ def constant_predictor(value):
 
 
 def test_signal_strengths_thresholds():
-    strengths = signal_strengths([25.0, 12.0, 8.0], avg_os=10.0, sig_level=5.0)
+    # Comparison happens in log1p space around avg_os_log = log1p(10)
+    strengths = signal_strengths([25.0, 12.0, 8.0],
+                                 avg_os_log=np.log1p(10.0), sig_level_log=0.5)
     assert list(strengths) == [2, 1, 0]
 
 
@@ -23,7 +25,8 @@ def test_expiry_and_override():
     def predict(dc_lengths):
         return np.array([20.0, 100.0])
 
-    sig = build_signal_series(events, predict, 100, avg_os=10.0, sig_level=5.0)
+    sig = build_signal_series(events, predict, 100,
+                              avg_os_log=np.log1p(10.0), sig_level_log=0.5)
     assert np.all(sig[:15] == 0)
     assert np.all(sig[15:35] == 2)          # predicted horizon 20 bars
     assert np.all(sig[35:50] == 0)          # expired before next confirmation
@@ -41,8 +44,10 @@ def test_no_lookahead_when_future_changes():
     predict = constant_predictor(20.0)
     events_a = identify_dc_events(prices_a, 0.02)
     events_b = identify_dc_events(prices_b, 0.02)
-    sig_a = build_signal_series(events_a, predict, 600, avg_os=10.0, sig_level=5.0)
-    sig_b = build_signal_series(events_b, predict, 600, avg_os=10.0, sig_level=5.0)
+    sig_a = build_signal_series(events_a, predict, 600,
+                                avg_os_log=np.log1p(10.0), sig_level_log=0.5)
+    sig_b = build_signal_series(events_b, predict, 600,
+                                avg_os_log=np.log1p(10.0), sig_level_log=0.5)
     assert np.array_equal(sig_a[:300], sig_b[:300])
 
 

@@ -38,26 +38,32 @@ def compute_event_features(dc_events):
     }
 
 
-def signal_strengths(predicted_os, avg_os, sig_level):
+def signal_strengths(predicted_os, avg_os_log, sig_level_log):
     """
     Map predicted OS lengths to strengths per the design doc: 2 (strong) if the
-    prediction exceeds the average OS length by more than sig_level, 1 if it is
-    merely above average, 0 (hold) otherwise. avg_os and sig_level must come from
-    training data only.
+    prediction exceeds the average OS length by more than one significance level,
+    1 if it is merely above average, 0 (hold) otherwise.
+
+    The comparison happens in log1p space: OS lengths are heavily right-skewed
+    (train median ~9 bars vs mean ~22), so a predictor fit in log space almost
+    never exceeds the raw arithmetic mean and the raw-space rule would emit no
+    signals at all. avg_os_log and sig_level_log are the mean and std of
+    log1p(os_length) over training events only.
     """
     predicted_os = np.asarray(predicted_os, dtype=float)
-    deviation = predicted_os - avg_os
-    return np.where(deviation > sig_level, 2, np.where(deviation > 0, 1, 0)).astype(np.int8)
+    deviation = np.log1p(np.maximum(predicted_os, 0.0)) - avg_os_log
+    return np.where(deviation > sig_level_log, 2, np.where(deviation > 0, 1, 0)).astype(np.int8)
 
 
-def build_signal_series(dc_events, predict_fn, n_bars, avg_os, sig_level):
+def build_signal_series(dc_events, predict_fn, n_bars, avg_os_log, sig_level_log):
     """
     Build a causal int8 signal series over bars for one threshold.
 
     Event k confirmed at bar c_k emits sign(direction) * strength from bar c_k
     until the earlier of the next confirmation c_{k+1} or the predicted horizon
     c_k + max(1, round(predicted_os)). sig[t] therefore depends only on events
-    with confirmation index <= t.
+    with confirmation index <= t. avg_os_log/sig_level_log are log1p-space train
+    statistics (see signal_strengths).
     """
     sig = np.zeros(n_bars, dtype=np.int8)
     if not dc_events:
@@ -65,7 +71,7 @@ def build_signal_series(dc_events, predict_fn, n_bars, avg_os, sig_level):
 
     feats = compute_event_features(dc_events)
     predicted = np.atleast_1d(np.asarray(predict_fn(feats['dc_len']), dtype=float))
-    strengths = signal_strengths(predicted, avg_os, sig_level)
+    strengths = signal_strengths(predicted, avg_os_log, sig_level_log)
 
     conf_idx = feats['conf_idx']
     direction = feats['direction']

@@ -70,8 +70,9 @@ def single_threshold_dc_strategy(close_prices_full, open_prices_full, threshold,
 
     dc_len, os_len = prepare_data_for_regression(train_events)
     predict_fn, _, _ = fit_os_predictor(dc_len, os_len, seed=seed, **gp_kwargs)
-    avg_os = float(os_len.mean())
-    sig_level = float(os_len.std())
+    os_log = np.log1p(os_len)
+    avg_os = float(os_log.mean())
+    sig_level = float(os_log.std())
 
     sig = build_signal_series(events, predict_fn, len(close_prices_full), avg_os, sig_level)
     actions = np.sign(sig[eval_slice]).astype(np.int8)

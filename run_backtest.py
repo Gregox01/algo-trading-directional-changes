@@ -68,8 +68,9 @@ def fit_threshold_models(closes, thresholds, fit_end, seed, gp_pop, gp_gens):
         dc_len, os_len = prepare_data_for_regression(train_events)
         predict_fn, expr, info = fit_os_predictor(
             dc_len, os_len, seed=seed, population_size=gp_pop, num_generations=gp_gens)
-        avg_os = float(os_len.mean())
-        sig_level = float(os_len.std())
+        os_log = np.log1p(os_len)
+        avg_os = float(os_log.mean())
+        sig_level = float(os_log.std())
         sig = build_signal_series(events, predict_fn, n_bars, avg_os, sig_level)
         models.append({
             'threshold': theta,
@@ -263,7 +264,7 @@ def make_charts(fold, bench, closes, opens, dates, cost_rows, wf_rows, outdir):
         ax.scatter(m['train_dc_len'], m['train_os_len'], s=6, alpha=0.25, label="train events")
         x_plot = np.linspace(1, m['train_dc_len'].max(), 200)
         ax.plot(x_plot, m['predict_fn'](x_plot), 'r-', lw=1.5, label="GP")
-        ax.axhline(m['avg_os'], color='gray', ls='--', lw=0.8, label="train avg OS")
+        ax.axhline(np.expm1(m['avg_os']), color='gray', ls='--', lw=0.8, label="train avg OS (log-space)")
         ax.set_title(f"θ = {m['threshold']:.1%}")
         ax.set_xscale('log')
         ax.set_yscale('symlog')
@@ -469,7 +470,10 @@ def write_results(args, fold, bench, dates, cost_rows, wf_rows, m_naive,
         "feature is confirmation-minus-extremum; the honest target is "
         "next-extremum-minus-confirmation.")
     add("3. **No scaler leakage**: all statistics (GP fit, average OS, signal "
-        "levels) come from training data only.")
+        "levels) come from training data only. Signal strengths compare the "
+        "predicted OS length to the training average in log1p space — OS lengths "
+        "are heavily right-skewed (median ~9 bars vs mean ~22 at θ=1%), so the "
+        "raw-space mean rule would never emit a signal.")
     add("4. The document's Nemenyi test is replaced by a moving-block bootstrap CI "
         "and a Wilcoxon signed-rank test on daily returns (two-strategy comparison).")
     add("")
