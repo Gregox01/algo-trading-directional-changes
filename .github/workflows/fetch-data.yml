@@ -2,6 +2,13 @@ name: fetch-data
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - claude/trading-system-profitability-u2kpfz
+    paths:
+      - '.github/workflows/fetch-data.yml'
+      - 'scripts/fetch_market_data.py'
+      - '.fetch-trigger'
 
 permissions:
   contents: write
