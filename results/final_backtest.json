@@ -1,0 +1,90 @@
+{
+  "per_asset": [
+    {
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "theta": 0.075191,
+      "train_auc_logit": 0.6063611859838275,
+      "n_test_events": 97,
+      "n_trades": 77,
+      "mean_net_per_trade": 0.002969552255859633,
+      "median_net_per_trade": -0.03329425622179629,
+      "win_rate": 0.2857142857142857,
+      "total_compounded": -0.17913989762283722,
+      "all_events_mean_net": 0.0030845933672654993,
+      "buy_hold_test": 3.4577605913154175,
+      "p_selection_vs_all_events": 0.5154845154845155,
+      "test_period": "2022-11-27 .. 2026-05-31"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "timeframe": "15m",
+      "theta": 0.097159,
+      "train_auc_logit": 0.6052955665024631,
+      "n_test_events": 118,
+      "n_trades": 37,
+      "mean_net_per_trade": -0.02812984835124105,
+      "median_net_per_trade": -0.04778663271514533,
+      "win_rate": 0.2972972972972973,
+      "total_compounded": -0.67982682368766,
+      "all_events_mean_net": -0.0017769253980830873,
+      "buy_hold_test": 0.6556619727604953,
+      "p_selection_vs_all_events": 0.952047952047952,
+      "test_period": "2022-11-27 .. 2026-05-31"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "timeframe": "1h",
+      "theta": 0.135204,
+      "train_auc_logit": 0.6398635477582846,
+      "n_test_events": 76,
+      "n_trades": 52,
+      "mean_net_per_trade": -0.020608534035495858,
+      "median_net_per_trade": -0.054871842119541214,
+      "win_rate": 0.28846153846153844,
+      "total_compounded": -0.7672179744324472,
+      "all_events_mean_net": -0.016322729678896516,
+      "buy_hold_test": -0.15132798023471283,
+      "p_selection_vs_all_events": 0.6513486513486514,
+      "test_period": "2024-02-04 .. 2026-05-31"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "timeframe": "1h",
+      "theta": 0.065345,
+      "train_auc_logit": 0.6140286519674093,
+      "n_test_events": 147,
+      "n_trades": 83,
+      "mean_net_per_trade": 0.006728098610529785,
+      "median_net_per_trade": -0.02266534289391431,
+      "win_rate": 0.3614457831325301,
+      "total_compounded": 0.28916434022486803,
+      "all_events_mean_net": 0.005593379898901336,
+      "buy_hold_test": 1.8872409589597723,
+      "p_selection_vs_all_events": 0.43356643356643354,
+      "test_period": "2022-12-29 .. 2026-05-31"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "4h",
+      "theta": 0.121142,
+      "train_auc_logit": 0.6865615615615617,
+      "n_test_events": 79,
+      "n_trades": 24,
+      "mean_net_per_trade": -0.024774369102805154,
+      "median_net_per_trade": -0.06117120534496712,
+      "win_rate": 0.3333333333333333,
+      "total_compounded": -0.5046537849368042,
+      "all_events_mean_net": 0.005183208780523483,
+      "buy_hold_test": 2.519007391763463,
+      "p_selection_vs_all_events": 0.8531468531468531,
+      "test_period": "2023-03-09 .. 2026-05-31"
+    }
+  ],
+  "pooled_mean_net": -0.007032766699391438,
+  "pooled_n": 273,
+  "pooled_ci95": [
+    -0.01866598416049363,
+    0.005252224923332051
+  ]
+}
