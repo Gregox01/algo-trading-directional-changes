@@ -32,7 +32,10 @@ from features import build_event_dataset, label_exceeds_cost, FEATURE_COLS
 
 
 def load_prices(path):
-    df = pd.read_csv(path, parse_dates=['Datetime'])
+    df = pd.read_csv(path)
+    # format='mixed' handles files whose rows vary in sub-second precision
+    # (pandas 3 otherwise silently leaves the column as strings)
+    df['Datetime'] = pd.to_datetime(df['Datetime'], format='mixed')
     df = df.sort_values('Datetime').drop_duplicates('Datetime').set_index('Datetime')
     df = df[df['Close'] > 0]
     return df

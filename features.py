@@ -57,6 +57,9 @@ def build_event_dataset(closes, thresholds, trade_idx, dates=None,
     log_close = np.log(closes)
     log_ret = np.diff(log_close, prepend=log_close[0])
 
+    own_confs = np.array([e[3] for e in events], dtype=np.int64)
+    cross_conf_arrays = [c for c in other_confs.values() if c is not None]
+
     rows = []
     for k in range(len(events) - 1):
         etype, ext_idx, ext_price, c, conf_price = events[k]
@@ -81,11 +84,11 @@ def build_event_dataset(closes, thresholds, trade_idx, dates=None,
         trend = float(log_close[c] - log_close[max(0, c - vol_window)])
 
         rate_lo = c - rate_window
-        own_rate = sum(1 for e in events[:k + 1] if e[3] > rate_lo)
+        own_rate = int(k + 1 - np.searchsorted(own_confs, rate_lo, side='right'))
         cross_rate = 0
-        for j, confs in other_confs.items():
-            if confs is not None:
-                cross_rate += int(np.sum((confs > rate_lo) & (confs <= c)))
+        for confs in cross_conf_arrays:
+            cross_rate += int(np.searchsorted(confs, c, side='right')
+                              - np.searchsorted(confs, rate_lo, side='right'))
 
         # Previous event's finished overshoot (revealed by this confirmation)
         if k > 0:

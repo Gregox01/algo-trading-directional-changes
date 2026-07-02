@@ -44,6 +44,22 @@ CRYPTO_SYMBOLS = ('BTCUSDT', 'ETHUSDT', 'SOLUSDT', 'BNBUSDT', 'XRPUSDT')
 FX_SYMBOLS = ('EURUSD', 'GBPUSD', 'USDJPY', 'AUDUSD')
 
 
+def robust_sigma(closes, chunk):
+    """Median of per-chunk bar-return std over the train region.
+
+    Amendment to the original 'global std' rule, made for data-sufficiency
+    reasons before any AUC results were seen: full-history crypto series
+    include the 2017-2018 regime whose volatility inflates a global std by
+    3-5x (e.g. BNB 15m global sigma 0.66% -> thresholds 5-16%, which yields
+    almost no events in the modern regime). The median chunk vol represents
+    typical conditions and is applied uniformly to every asset class.
+    """
+    rets = np.diff(np.log(closes))
+    n_chunks = max(1, len(rets) // chunk)
+    stds = [np.std(rets[i * chunk:(i + 1) * chunk]) for i in range(n_chunks)]
+    return float(np.median(stds))
+
+
 def classify(name):
     sym = name.split('_')[0]
     if sym in CRYPTO_SYMBOLS:
@@ -97,7 +113,7 @@ def main():
             continue
         closes = df['Close'].values.astype(np.float64)
         train_end = int(len(closes) * args.train_frac)
-        sigma = float(np.std(np.diff(np.log(closes[:train_end]))))
+        sigma = robust_sigma(closes[:train_end], VOL_WINDOWS.get(tf, 96))
         thresholds = [round(m * sigma, 6) for m in VOL_MULTIPLES]
         cost_rt = CLASS_PARAMS[aclass]['cost_rt']
         vol_window = VOL_WINDOWS.get(tf, 96)
