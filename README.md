@@ -22,6 +22,10 @@ money out of sample**: −15.6% on the untouched May–Oct 2024 test window
 (buy-and-hold: −37.0%), negative in 2 of 3 walk-forward folds, and still
 negative even with zero transaction costs. Full numbers, charts, significance
 tests and the pre-registered criteria are in [`RESULTS.md`](RESULTS.md).
+[`ASSESSMENT.md`](ASSESSMENT.md) covers how reliable that verdict is (seed
+sensitivity, statistical power, residual biases), what can be inferred, and
+what a credible path toward profitability would look like — and on which
+assets/timeframes this strategy family has any documented chance.
 
 The most important number in the report is in the appendix: implementing the
 design document's pseudocode literally — acting at the DC *extremum* instead of
