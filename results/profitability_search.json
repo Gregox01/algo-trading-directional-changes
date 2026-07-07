@@ -1,0 +1,1362 @@
+[
+  {
+    "label": "AUDUSD_10m",
+    "theta": 0.003789,
+    "n_events": 2912,
+    "base_rate": 0.8262362637362637,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.0044436020987650895,
+    "mean_ret_next_conf": 0.00010301871453817113,
+    "auc_logistic": 0.5034794662970022,
+    "top_tercile_net_logistic": -0.0005885243173410373,
+    "auc_gboost": 0.49284237278345755,
+    "top_tercile_net_gboost": -0.0005486380024877097,
+    "shuffle_auc_95band": [
+      0.48108391063374606,
+      0.5262520797083439
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0004736856615082756
+  },
+  {
+    "label": "AUDUSD_10m",
+    "theta": 0.005684,
+    "n_events": 1538,
+    "base_rate": 0.8569570871261378,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.0062495523730102965,
+    "mean_ret_next_conf": -5.923817854609065e-05,
+    "auc_logistic": 0.4803016132803367,
+    "top_tercile_net_logistic": -8.316972724468852e-05,
+    "auc_gboost": 0.4845540098199672,
+    "top_tercile_net_gboost": -0.0007337857727042627,
+    "shuffle_auc_95band": [
+      0.46039485964460525,
+      0.5476452774807158
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0004736856615082756
+  },
+  {
+    "label": "AUDUSD_10m",
+    "theta": 0.007579,
+    "n_events": 953,
+    "base_rate": 0.8667366211962224,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.008004543285836973,
+    "mean_ret_next_conf": -0.000274259355089312,
+    "auc_logistic": 0.4900849436931911,
+    "top_tercile_net_logistic": 0.00011202741093913533,
+    "auc_gboost": 0.5069249192960533,
+    "top_tercile_net_gboost": -0.00026853109056546633,
+    "shuffle_auc_95band": [
+      0.44305809691508974,
+      0.5365475996524384
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0004736856615082756
+  },
+  {
+    "label": "AUDUSD_10m",
+    "theta": 0.011368,
+    "n_events": 458,
+    "base_rate": 0.9170305676855895,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.011894972285812122,
+    "mean_ret_next_conf": -0.0002591297343741629,
+    "auc_logistic": 0.4452012924635403,
+    "top_tercile_net_logistic": 9.797390810972225e-06,
+    "auc_gboost": 0.36188979128460397,
+    "top_tercile_net_gboost": -0.0016031706685473563,
+    "shuffle_auc_95band": [
+      0.3976435602711465,
+      0.584683746408046
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0004736856615082756
+  },
+  {
+    "label": "AUDUSD_1h",
+    "theta": 0.008921,
+    "n_events": 553,
+    "base_rate": 0.8734177215189873,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.010090103752051048,
+    "mean_ret_next_conf": -0.00015485583921712057,
+    "auc_logistic": 0.46210893175555195,
+    "top_tercile_net_logistic": -0.0006991210914192281,
+    "auc_gboost": 0.49384016858485985,
+    "top_tercile_net_gboost": -0.0014730565945909168,
+    "shuffle_auc_95band": [
+      0.43410552954274095,
+      0.5658073798116836
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.001115072645116145
+  },
+  {
+    "label": "AUDUSD_1h",
+    "theta": 0.013381,
+    "n_events": 289,
+    "base_rate": 0.9100346020761245,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.014069686645135136,
+    "mean_ret_next_conf": -0.0007835812517720087,
+    "auc_logistic": 0.5144596651445967,
+    "top_tercile_net_logistic": -0.0015705505908540245,
+    "auc_gboost": 0.617199391171994,
+    "top_tercile_net_gboost": -0.002252777065667765,
+    "shuffle_auc_95band": [
+      0.35188140033341275,
+      0.5600120261719965
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.001115072645116145
+  },
+  {
+    "label": "AUDUSD_1h",
+    "theta": 0.017841,
+    "n_events": 177,
+    "base_rate": 0.9152542372881356,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.01814551669044159,
+    "mean_ret_next_conf": -0.0009919711711685196,
+    "auc_logistic": 0.4792802617230098,
+    "top_tercile_net_logistic": -0.003243101589285606,
+    "auc_gboost": 0.5027262813522355,
+    "top_tercile_net_gboost": -0.0021412638060883966,
+    "shuffle_auc_95band": [
+      0.3748437154448605,
+      0.6361809755130364
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.001115072645116145
+  },
+  {
+    "label": "BNBUSDT_15m",
+    "theta": 0.033079,
+    "n_events": 3171,
+    "base_rate": 0.8246609902239042,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.039460405436047355,
+    "mean_ret_next_conf": -0.0008335417075945418,
+    "auc_logistic": 0.5625162862533397,
+    "top_tercile_net_logistic": -0.00023522585417331214,
+    "auc_gboost": 0.5341136196135139,
+    "top_tercile_net_gboost": 8.174403783856184e-05,
+    "shuffle_auc_95band": [
+      0.4718342266588529,
+      0.5138181563738665
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004134890513090435
+  },
+  {
+    "label": "BNBUSDT_15m",
+    "theta": 0.049619,
+    "n_events": 1684,
+    "base_rate": 0.8527315914489311,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.056991439409026116,
+    "mean_ret_next_conf": -0.0009327629988200098,
+    "auc_logistic": 0.5247076975668796,
+    "top_tercile_net_logistic": -0.0019426279717324768,
+    "auc_gboost": 0.5493299333398007,
+    "top_tercile_net_gboost": -3.489055270982022e-05,
+    "shuffle_auc_95band": [
+      0.46025064507727154,
+      0.5193746334736683
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004134890513090435
+  },
+  {
+    "label": "BNBUSDT_15m",
+    "theta": 0.066158,
+    "n_events": 1080,
+    "base_rate": 0.8685185185185185,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.07259442781778962,
+    "mean_ret_next_conf": -0.002947722303323564,
+    "auc_logistic": 0.583903399668325,
+    "top_tercile_net_logistic": 0.002262385799587105,
+    "auc_gboost": 0.5209888059701493,
+    "top_tercile_net_gboost": -0.004113147739258722,
+    "shuffle_auc_95band": [
+      0.45815525938669605,
+      0.5431569689570329
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004134890513090435
+  },
+  {
+    "label": "BNBUSDT_15m",
+    "theta": 0.099237,
+    "n_events": 511,
+    "base_rate": 0.9021526418786693,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.11366520123868346,
+    "mean_ret_next_conf": 0.0006004870124772736,
+    "auc_logistic": 0.5739964430894309,
+    "top_tercile_net_logistic": -0.007014130529231024,
+    "auc_gboost": 0.5976562499999999,
+    "top_tercile_net_gboost": 0.00744849181259489,
+    "shuffle_auc_95band": [
+      0.39861302852892866,
+      0.6119255238122419
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004134890513090435
+  },
+  {
+    "label": "BNBUSDT_1h",
+    "theta": 0.065345,
+    "n_events": 774,
+    "base_rate": 0.834625322997416,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.08037718968720939,
+    "mean_ret_next_conf": 0.0003330367845595074,
+    "auc_logistic": 0.6140286519674093,
+    "top_tercile_net_logistic": 0.007674681597729706,
+    "auc_gboost": 0.5685214503610457,
+    "top_tercile_net_gboost": 0.005800166320741596,
+    "shuffle_auc_95band": [
+      0.41699927606563003,
+      0.5510889308314082
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008168133712821476
+  },
+  {
+    "label": "BNBUSDT_1h",
+    "theta": 0.098018,
+    "n_events": 397,
+    "base_rate": 0.8841309823677582,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.12603645126979188,
+    "mean_ret_next_conf": 0.009203677847906442,
+    "auc_logistic": 0.5356717011128775,
+    "top_tercile_net_logistic": 0.042798401758838686,
+    "auc_gboost": 0.5077503974562798,
+    "top_tercile_net_gboost": 0.0249384231727012,
+    "shuffle_auc_95band": [
+      0.4224640851378069,
+      0.5758499059596416
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008168133712821476
+  },
+  {
+    "label": "BNBUSDT_1h",
+    "theta": 0.13069,
+    "n_events": 242,
+    "base_rate": 0.9008264462809917,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.17913394084602663,
+    "mean_ret_next_conf": 0.02531794712429708,
+    "auc_logistic": 0.4496527777777778,
+    "top_tercile_net_logistic": 0.015684026759299943,
+    "auc_gboost": 0.5188802083333333,
+    "top_tercile_net_gboost": 0.05394936424303226,
+    "shuffle_auc_95band": [
+      0.423505822907438,
+      0.5835078093015639
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008168133712821476
+  },
+  {
+    "label": "BNBUSDT_1h",
+    "theta": 0.196035,
+    "n_events": 120,
+    "base_rate": 0.9083333333333333,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.28555769699011163,
+    "mean_ret_next_conf": 0.04484331573212357,
+    "auc_logistic": 0.5202156334231807,
+    "top_tercile_net_logistic": 0.249199904560455,
+    "auc_gboost": 0.29649595687331537,
+    "top_tercile_net_gboost": 0.17310410092744605,
+    "shuffle_auc_95band": [
+      0.33297965571205,
+      0.6025518455098934
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008168133712821476
+  },
+  {
+    "label": "BNBUSDT_4h",
+    "theta": 0.130374,
+    "n_events": 184,
+    "base_rate": 0.8858695652173914,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.19831776818887006,
+    "mean_ret_next_conf": 0.035447571463629764,
+    "auc_logistic": 0.561298076923077,
+    "top_tercile_net_logistic": -0.02351900484104317,
+    "auc_gboost": 0.43209134615384615,
+    "top_tercile_net_gboost": 0.017556722174824478,
+    "shuffle_auc_95band": [
+      0.3830864346333745,
+      0.6003669085151134
+    ],
+    "asset_class": "crypto",
+    "timeframe": "4h",
+    "sigma_bar": 0.016296765336139767
+  },
+  {
+    "label": "BTCUSDT_15m",
+    "theta": 0.024845,
+    "n_events": 2877,
+    "base_rate": 0.8289885297184567,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.030306216748502944,
+    "mean_ret_next_conf": -8.668347247292005e-05,
+    "auc_logistic": 0.5255595192279228,
+    "top_tercile_net_logistic": -0.0001455209279376674,
+    "auc_gboost": 0.5353535727325656,
+    "top_tercile_net_gboost": 8.759253928865724e-06,
+    "shuffle_auc_95band": [
+      0.47124801322145693,
+      0.5356957684003348
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003105634624330232
+  },
+  {
+    "label": "BTCUSDT_15m",
+    "theta": 0.037268,
+    "n_events": 1599,
+    "base_rate": 0.8642901813633521,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.04187688834950734,
+    "mean_ret_next_conf": -0.0015999517312415437,
+    "auc_logistic": 0.5878346855983774,
+    "top_tercile_net_logistic": 0.0004957138056774972,
+    "auc_gboost": 0.5875202839756593,
+    "top_tercile_net_gboost": 0.000798050639467309,
+    "shuffle_auc_95band": [
+      0.4621368111908352,
+      0.5471201768382101
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003105634624330232
+  },
+  {
+    "label": "BTCUSDT_15m",
+    "theta": 0.04969,
+    "n_events": 997,
+    "base_rate": 0.8886659979939819,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.05481259119733027,
+    "mean_ret_next_conf": -0.0015766320106619222,
+    "auc_logistic": 0.5331290471785384,
+    "top_tercile_net_logistic": 0.0017262660292259359,
+    "auc_gboost": 0.49679116558741904,
+    "top_tercile_net_gboost": 0.0022106977185017917,
+    "shuffle_auc_95band": [
+      0.44795060941359766,
+      0.5607067235935694
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003105634624330232
+  },
+  {
+    "label": "BTCUSDT_15m",
+    "theta": 0.074535,
+    "n_events": 485,
+    "base_rate": 0.8804123711340206,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.08361698957307243,
+    "mean_ret_next_conf": 0.0010072674066832243,
+    "auc_logistic": 0.5995455661999508,
+    "top_tercile_net_logistic": 0.013300468897362113,
+    "auc_gboost": 0.5354335544092361,
+    "top_tercile_net_gboost": 0.01008645979915285,
+    "shuffle_auc_95band": [
+      0.4055053385416666,
+      0.5451134093473655
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003105634624330232
+  },
+  {
+    "label": "BTCUSDT_1h",
+    "theta": 0.050127,
+    "n_events": 736,
+    "base_rate": 0.8315217391304348,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.057679572187002134,
+    "mean_ret_next_conf": -0.003934500634189112,
+    "auc_logistic": 0.5656196581196582,
+    "top_tercile_net_logistic": 0.011602186099659413,
+    "auc_gboost": 0.5277136752136752,
+    "top_tercile_net_gboost": 0.0037956742991326624,
+    "shuffle_auc_95band": [
+      0.4609835244052736,
+      0.539730888345846
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.00626590613296854
+  },
+  {
+    "label": "BTCUSDT_1h",
+    "theta": 0.075191,
+    "n_events": 361,
+    "base_rate": 0.8642659279778393,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.09379409704921579,
+    "mean_ret_next_conf": 0.006262421110113391,
+    "auc_logistic": 0.6063611859838275,
+    "top_tercile_net_logistic": 0.016447505124178835,
+    "auc_gboost": 0.592345013477089,
+    "top_tercile_net_gboost": 0.014349130250420377,
+    "shuffle_auc_95band": [
+      0.4160436994541284,
+      0.5514826981696127
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.00626590613296854
+  },
+  {
+    "label": "BTCUSDT_1h",
+    "theta": 0.100254,
+    "n_events": 209,
+    "base_rate": 0.9186602870813397,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.1384488105849044,
+    "mean_ret_next_conf": 0.024474643948949503,
+    "auc_logistic": 0.5506329113924051,
+    "top_tercile_net_logistic": 0.04568186619157856,
+    "auc_gboost": 0.5361286919831224,
+    "top_tercile_net_gboost": 0.02800748414524332,
+    "shuffle_auc_95band": [
+      0.3250013440860215,
+      0.6024262820512819
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.00626590613296854
+  },
+  {
+    "label": "BTCUSDT_4h",
+    "theta": 0.10106,
+    "n_events": 175,
+    "base_rate": 0.9028571428571428,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.13744930981827286,
+    "mean_ret_next_conf": 0.016588998382233315,
+    "auc_logistic": 0.3496240601503759,
+    "top_tercile_net_logistic": 0.050995341423605116,
+    "auc_gboost": 0.39630325814536344,
+    "top_tercile_net_gboost": 0.0004889365141052467,
+    "shuffle_auc_95band": [
+      0.3478699133329507,
+      0.6163722420989862
+    ],
+    "asset_class": "crypto",
+    "timeframe": "4h",
+    "sigma_bar": 0.01263251663435586
+  },
+  {
+    "label": "ETHUSDT_15m",
+    "theta": 0.032386,
+    "n_events": 2697,
+    "base_rate": 0.8546533185020393,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.04016731539224797,
+    "mean_ret_next_conf": 0.00130412481872555,
+    "auc_logistic": 0.527259076988206,
+    "top_tercile_net_logistic": 0.003819978848984719,
+    "auc_gboost": 0.5210710482275978,
+    "top_tercile_net_gboost": 0.0015636239198834729,
+    "shuffle_auc_95band": [
+      0.4628623913567215,
+      0.540354099987959
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004048277055885587
+  },
+  {
+    "label": "ETHUSDT_15m",
+    "theta": 0.048579,
+    "n_events": 1516,
+    "base_rate": 0.8726912928759895,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.05401050218045052,
+    "mean_ret_next_conf": -0.0020271935713354994,
+    "auc_logistic": 0.5879940760653126,
+    "top_tercile_net_logistic": 0.005218769578868626,
+    "auc_gboost": 0.524361559139785,
+    "top_tercile_net_gboost": 0.0014440462375008686,
+    "shuffle_auc_95band": [
+      0.4595636548313947,
+      0.5492021352123881
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004048277055885587
+  },
+  {
+    "label": "ETHUSDT_15m",
+    "theta": 0.064772,
+    "n_events": 901,
+    "base_rate": 0.9078801331853497,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.07426681211583536,
+    "mean_ret_next_conf": 0.0010619165839211837,
+    "auc_logistic": 0.5942279618192026,
+    "top_tercile_net_logistic": 0.01644062331440641,
+    "auc_gboost": 0.5357215047725996,
+    "top_tercile_net_gboost": 0.0006477287635917759,
+    "shuffle_auc_95band": [
+      0.4524983073841021,
+      0.5372472430752233
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004048277055885587
+  },
+  {
+    "label": "ETHUSDT_15m",
+    "theta": 0.097159,
+    "n_events": 439,
+    "base_rate": 0.9066059225512528,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.11283755138158066,
+    "mean_ret_next_conf": 0.004430476533969741,
+    "auc_logistic": 0.6052955665024631,
+    "top_tercile_net_logistic": 0.013454933287846279,
+    "auc_gboost": 0.5523912151067323,
+    "top_tercile_net_gboost": 0.020599764727066597,
+    "shuffle_auc_95band": [
+      0.395355847659284,
+      0.5658402859440362
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.004048277055885587
+  },
+  {
+    "label": "ETHUSDT_1h",
+    "theta": 0.064998,
+    "n_events": 685,
+    "base_rate": 0.8554744525547445,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.07938339288066314,
+    "mean_ret_next_conf": 0.0010286703876900888,
+    "auc_logistic": 0.5299048196117044,
+    "top_tercile_net_logistic": 0.016885958708156335,
+    "auc_gboost": 0.5359640485748189,
+    "top_tercile_net_gboost": 0.00568161626628405,
+    "shuffle_auc_95band": [
+      0.4485537809011338,
+      0.5427809263958836
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008124751169174913
+  },
+  {
+    "label": "ETHUSDT_1h",
+    "theta": 0.097497,
+    "n_events": 363,
+    "base_rate": 0.8815426997245179,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.11805312966589343,
+    "mean_ret_next_conf": 0.006088411026878717,
+    "auc_logistic": 0.5753264925373134,
+    "top_tercile_net_logistic": 0.013140255768514715,
+    "auc_gboost": 0.5458255597014925,
+    "top_tercile_net_gboost": 0.005558855927493111,
+    "shuffle_auc_95band": [
+      0.4308118360551768,
+      0.5718345380215673
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008124751169174913
+  },
+  {
+    "label": "ETHUSDT_1h",
+    "theta": 0.129996,
+    "n_events": 211,
+    "base_rate": 0.919431279620853,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.1682303823969692,
+    "mean_ret_next_conf": 0.019244363370271387,
+    "auc_logistic": 0.4507575757575758,
+    "top_tercile_net_logistic": 0.0006813192215723832,
+    "auc_gboost": 0.509469696969697,
+    "top_tercile_net_gboost": 0.013628658082099251,
+    "shuffle_auc_95band": [
+      0.36422727272727273,
+      0.5900573584905661
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.008124751169174913
+  },
+  {
+    "label": "ETHUSDT_4h",
+    "theta": 0.133255,
+    "n_events": 160,
+    "base_rate": 0.89375,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.18655413495782508,
+    "mean_ret_next_conf": 0.0263513446032261,
+    "auc_logistic": 0.5281159420289855,
+    "top_tercile_net_logistic": 0.040849344815702876,
+    "auc_gboost": 0.452463768115942,
+    "top_tercile_net_gboost": -0.01911334058968391,
+    "shuffle_auc_95band": [
+      0.33147011359681045,
+      0.6245373076173777
+    ],
+    "asset_class": "crypto",
+    "timeframe": "4h",
+    "sigma_bar": 0.01665687736181575
+  },
+  {
+    "label": "EURUSD_10m",
+    "theta": 0.002865,
+    "n_events": 2889,
+    "base_rate": 0.781239183108342,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.0033580978813647186,
+    "mean_ret_next_conf": 2.9033125734407106e-05,
+    "auc_logistic": 0.49989376276111597,
+    "top_tercile_net_logistic": -0.00043982887846344854,
+    "auc_gboost": 0.5055820080659359,
+    "top_tercile_net_gboost": -0.000635803612123545,
+    "shuffle_auc_95band": [
+      0.4684376412036867,
+      0.5183209921990766
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0003581780488615233
+  },
+  {
+    "label": "EURUSD_10m",
+    "theta": 0.004298,
+    "n_events": 1457,
+    "base_rate": 0.846945778997941,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.005062231210336987,
+    "mean_ret_next_conf": 0.00026655007193936907,
+    "auc_logistic": 0.5099493867607526,
+    "top_tercile_net_logistic": -0.00020898701938893026,
+    "auc_gboost": 0.515603998655914,
+    "top_tercile_net_gboost": -0.00017859549857602734,
+    "shuffle_auc_95band": [
+      0.46651673138648625,
+      0.5310818021882385
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0003581780488615233
+  },
+  {
+    "label": "EURUSD_10m",
+    "theta": 0.005731,
+    "n_events": 933,
+    "base_rate": 0.8638799571275455,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.0063450537280545435,
+    "mean_ret_next_conf": 5.388925195292111e-05,
+    "auc_logistic": 0.5244755244755244,
+    "top_tercile_net_logistic": -0.0002192143041504498,
+    "auc_gboost": 0.5262686031916801,
+    "top_tercile_net_gboost": -0.000203295754716867,
+    "shuffle_auc_95band": [
+      0.44814948421043976,
+      0.5412292042144842
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0003581780488615233
+  },
+  {
+    "label": "EURUSD_10m",
+    "theta": 0.008596,
+    "n_events": 471,
+    "base_rate": 0.9044585987261147,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.00911516703074914,
+    "mean_ret_next_conf": -1.2302832573426112e-05,
+    "auc_logistic": 0.5202717510409818,
+    "top_tercile_net_logistic": 0.0002106905261336204,
+    "auc_gboost": 0.5354664329023303,
+    "top_tercile_net_gboost": -0.000526388249285422,
+    "shuffle_auc_95band": [
+      0.3583257456069252,
+      0.5726921559323933
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.0003581780488615233
+  },
+  {
+    "label": "EURUSD_1h",
+    "theta": 0.006872,
+    "n_events": 555,
+    "base_rate": 0.8504504504504504,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.007759085348845902,
+    "mean_ret_next_conf": -0.00015089772819974976,
+    "auc_logistic": 0.5812421085858586,
+    "top_tercile_net_logistic": -0.000837723194311576,
+    "auc_gboost": 0.5426530934343434,
+    "top_tercile_net_gboost": -0.0012556806311146914,
+    "shuffle_auc_95band": [
+      0.41027029711548524,
+      0.5512530517433702
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0008589770017275923
+  },
+  {
+    "label": "EURUSD_1h",
+    "theta": 0.010308,
+    "n_events": 293,
+    "base_rate": 0.9044368600682594,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.010884311716463365,
+    "mean_ret_next_conf": -0.00045563492290975487,
+    "auc_logistic": 0.40948837209302325,
+    "top_tercile_net_logistic": -0.0012521916759919386,
+    "auc_gboost": 0.40744186046511627,
+    "top_tercile_net_gboost": -0.003425547287941742,
+    "shuffle_auc_95band": [
+      0.38584390641039257,
+      0.6037767654242328
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0008589770017275923
+  },
+  {
+    "label": "EURUSD_1h",
+    "theta": 0.013744,
+    "n_events": 187,
+    "base_rate": 0.8823529411764706,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.013180315138121953,
+    "mean_ret_next_conf": -0.0017328972131181765,
+    "auc_logistic": 0.5823195458231953,
+    "top_tercile_net_logistic": -0.001560014804681494,
+    "auc_gboost": 0.5399432278994323,
+    "top_tercile_net_gboost": -0.001510233134694853,
+    "shuffle_auc_95band": [
+      0.38524232331564284,
+      0.6158088235294117
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0008589770017275923
+  },
+  {
+    "label": "GBPUSD_10m",
+    "theta": 0.003378,
+    "n_events": 2832,
+    "base_rate": 0.7906073446327684,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.003936756150692837,
+    "mean_ret_next_conf": 2.9109357088615752e-05,
+    "auc_logistic": 0.5429680748363271,
+    "top_tercile_net_logistic": -0.0003565786431803464,
+    "auc_gboost": 0.49025709178748034,
+    "top_tercile_net_gboost": -0.00022028612909301109,
+    "shuffle_auc_95band": [
+      0.4709344726299578,
+      0.5172617921458019
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.00042223212852661636
+  },
+  {
+    "label": "GBPUSD_10m",
+    "theta": 0.005067,
+    "n_events": 1429,
+    "base_rate": 0.8376487053883834,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.005896740813253155,
+    "mean_ret_next_conf": 0.00023705648533837352,
+    "auc_logistic": 0.5004651259477916,
+    "top_tercile_net_logistic": -0.00031690019317786824,
+    "auc_gboost": 0.5204109738542051,
+    "top_tercile_net_gboost": 6.548605279367329e-05,
+    "shuffle_auc_95band": [
+      0.4770634995534929,
+      0.533474639761103
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.00042223212852661636
+  },
+  {
+    "label": "GBPUSD_10m",
+    "theta": 0.006756,
+    "n_events": 883,
+    "base_rate": 0.8890147225368064,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.007765407347178139,
+    "mean_ret_next_conf": 0.0003860401999034196,
+    "auc_logistic": 0.5051114128264516,
+    "top_tercile_net_logistic": -0.00025475677572260423,
+    "auc_gboost": 0.4807723025317467,
+    "top_tercile_net_gboost": 0.00021041931321166002,
+    "shuffle_auc_95band": [
+      0.4400445787336816,
+      0.5410859678407116
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.00042223212852661636
+  },
+  {
+    "label": "GBPUSD_10m",
+    "theta": 0.010134,
+    "n_events": 446,
+    "base_rate": 0.899103139013453,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.01101380961953948,
+    "mean_ret_next_conf": 0.00012552442068462224,
+    "auc_logistic": 0.5001451800232288,
+    "top_tercile_net_logistic": -0.0013582319608895924,
+    "auc_gboost": 0.45695412311265976,
+    "top_tercile_net_gboost": -0.00010398175204475575,
+    "shuffle_auc_95band": [
+      0.406545906170144,
+      0.5806824078879087
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.00042223212852661636
+  },
+  {
+    "label": "GBPUSD_1h",
+    "theta": 0.008041,
+    "n_events": 532,
+    "base_rate": 0.8421052631578947,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.009425097454804635,
+    "mean_ret_next_conf": 0.00020449383805542823,
+    "auc_logistic": 0.5341560990338163,
+    "top_tercile_net_logistic": 0.0002040649854075269,
+    "auc_gboost": 0.4711277173913043,
+    "top_tercile_net_gboost": 0.00011704175898907075,
+    "shuffle_auc_95band": [
+      0.42862704683384856,
+      0.5269384545042439
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0010050826336301302
+  },
+  {
+    "label": "GBPUSD_1h",
+    "theta": 0.012061,
+    "n_events": 297,
+    "base_rate": 0.8619528619528619,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.01254555407897517,
+    "mean_ret_next_conf": -0.0007837594611531632,
+    "auc_logistic": 0.5257142857142857,
+    "top_tercile_net_logistic": -0.0018270953914024661,
+    "auc_gboost": 0.4368027210884354,
+    "top_tercile_net_gboost": -0.0034039614296057326,
+    "shuffle_auc_95band": [
+      0.39585888478614195,
+      0.5914798893828541
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0010050826336301302
+  },
+  {
+    "label": "GBPUSD_1h",
+    "theta": 0.016081,
+    "n_events": 169,
+    "base_rate": 0.8994082840236687,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.01775218380720978,
+    "mean_ret_next_conf": 0.00045282193727018064,
+    "auc_logistic": 0.4490927419354839,
+    "top_tercile_net_logistic": 0.001751760083012899,
+    "auc_gboost": 0.43724798387096775,
+    "top_tercile_net_gboost": -0.0020279102025113492,
+    "shuffle_auc_95band": [
+      0.33253492152069164,
+      0.6040844614055298
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0010050826336301302
+  },
+  {
+    "label": "SOLUSDT_15m",
+    "theta": 0.044607,
+    "n_events": 1917,
+    "base_rate": 0.8555033907146583,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.05237127106734213,
+    "mean_ret_next_conf": -0.0004246858197116353,
+    "auc_logistic": 0.5501313914419066,
+    "top_tercile_net_logistic": 0.002630800093187566,
+    "auc_gboost": 0.5199375073539986,
+    "top_tercile_net_gboost": 0.002924819263767033,
+    "shuffle_auc_95band": [
+      0.46973458927776257,
+      0.5387549495259735
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.005575844343210554
+  },
+  {
+    "label": "SOLUSDT_15m",
+    "theta": 0.06691,
+    "n_events": 1020,
+    "base_rate": 0.8852941176470588,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.07465646665201597,
+    "mean_ret_next_conf": -0.0011084825531192785,
+    "auc_logistic": 0.5791196949602122,
+    "top_tercile_net_logistic": 0.005731040194007432,
+    "auc_gboost": 0.5586455570291777,
+    "top_tercile_net_gboost": 0.0050578936150708015,
+    "shuffle_auc_95band": [
+      0.4507098581328572,
+      0.5458233212780232
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.005575844343210554
+  },
+  {
+    "label": "SOLUSDT_15m",
+    "theta": 0.089214,
+    "n_events": 620,
+    "base_rate": 0.9096774193548387,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.09957920011268745,
+    "mean_ret_next_conf": -0.0003330463901982951,
+    "auc_logistic": 0.5817173023055375,
+    "top_tercile_net_logistic": 0.0042778027290563524,
+    "auc_gboost": 0.5370609782374488,
+    "top_tercile_net_gboost": 0.001495853090564382,
+    "shuffle_auc_95band": [
+      0.44552198831401335,
+      0.5368929668933529
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.005575844343210554
+  },
+  {
+    "label": "SOLUSDT_15m",
+    "theta": 0.13382,
+    "n_events": 301,
+    "base_rate": 0.9401993355481728,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.15387910271473584,
+    "mean_ret_next_conf": 0.004150911044081249,
+    "auc_logistic": 0.5421195652173914,
+    "top_tercile_net_logistic": -0.01588563803499774,
+    "auc_gboost": 0.4665421195652174,
+    "top_tercile_net_gboost": -0.015292621491341049,
+    "shuffle_auc_95band": [
+      0.3701647391857848,
+      0.5904921414833513
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.005575844343210554
+  },
+  {
+    "label": "SOLUSDT_1h",
+    "theta": 0.090136,
+    "n_events": 456,
+    "base_rate": 0.881578947368421,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.1097635823799174,
+    "mean_ret_next_conf": 0.0027241960941298284,
+    "auc_logistic": 0.5173753507446579,
+    "top_tercile_net_logistic": 0.006308546454391209,
+    "auc_gboost": 0.5491042521044679,
+    "top_tercile_net_gboost": 0.01772754219572578,
+    "shuffle_auc_95band": [
+      0.4419660077023712,
+      0.5881743354571274
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.011266965856247447
+  },
+  {
+    "label": "SOLUSDT_1h",
+    "theta": 0.135204,
+    "n_events": 235,
+    "base_rate": 0.8851063829787233,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.17020381646061256,
+    "mean_ret_next_conf": 0.012391770151166756,
+    "auc_logistic": 0.6398635477582846,
+    "top_tercile_net_logistic": 0.02083249370849703,
+    "auc_gboost": 0.5759015594541911,
+    "top_tercile_net_gboost": 0.04286987680158014,
+    "shuffle_auc_95band": [
+      0.3865803993694167,
+      0.5915462427745665
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.011266965856247447
+  },
+  {
+    "label": "SOLUSDT_1h",
+    "theta": 0.180271,
+    "n_events": 137,
+    "base_rate": 0.9343065693430657,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.27380579163328017,
+    "mean_ret_next_conf": 0.05275801433438427,
+    "auc_logistic": 0.7354497354497355,
+    "top_tercile_net_logistic": -0.018325157546330444,
+    "auc_gboost": 0.6640211640211641,
+    "top_tercile_net_gboost": -0.03263887053866224,
+    "shuffle_auc_95band": [
+      0.3651148748334285,
+      0.6694246379118255
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.011266965856247447
+  },
+  {
+    "label": "USDJPY_10m",
+    "theta": 0.002698,
+    "n_events": 3283,
+    "base_rate": 0.7551020408163265,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.0031190547588835077,
+    "mean_ret_next_conf": -5.437208474494976e-05,
+    "auc_logistic": 0.5276442599557475,
+    "top_tercile_net_logistic": -0.000474169998537944,
+    "auc_gboost": 0.5050587581580779,
+    "top_tercile_net_gboost": -0.0005459556560133997,
+    "shuffle_auc_95band": [
+      0.4813624530368585,
+      0.5338749226159674
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.000337275845325585
+  },
+  {
+    "label": "USDJPY_10m",
+    "theta": 0.004047,
+    "n_events": 1727,
+    "base_rate": 0.7996525767226405,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.004468635702659653,
+    "mean_ret_next_conf": -0.00011076820920283963,
+    "auc_logistic": 0.5042162324951062,
+    "top_tercile_net_logistic": -0.0006898294956968682,
+    "auc_gboost": 0.5027164583647041,
+    "top_tercile_net_gboost": -0.0005552347492232825,
+    "shuffle_auc_95band": [
+      0.4779747123028517,
+      0.5330243053097878
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.000337275845325585
+  },
+  {
+    "label": "USDJPY_10m",
+    "theta": 0.005396,
+    "n_events": 1003,
+    "base_rate": 0.8693918245264207,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.00629370918740437,
+    "mean_ret_next_conf": 0.00036358159014133334,
+    "auc_logistic": 0.4588347956621891,
+    "top_tercile_net_logistic": 0.0005683764874673971,
+    "auc_gboost": 0.4718922276574269,
+    "top_tercile_net_gboost": -0.00014337978963645592,
+    "shuffle_auc_95band": [
+      0.4277414109233168,
+      0.5266751455489519
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.000337275845325585
+  },
+  {
+    "label": "USDJPY_10m",
+    "theta": 0.008095,
+    "n_events": 517,
+    "base_rate": 0.9129593810444874,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.008887092555915486,
+    "mean_ret_next_conf": 0.00019759021031987397,
+    "auc_logistic": 0.5889734912577552,
+    "top_tercile_net_logistic": -0.0002559564740619435,
+    "auc_gboost": 0.5399746192893402,
+    "top_tercile_net_gboost": -0.00045056548671518415,
+    "shuffle_auc_95band": [
+      0.4050451231130411,
+      0.6011536781836072
+    ],
+    "asset_class": "fx",
+    "timeframe": "10m",
+    "sigma_bar": 0.000337275845325585
+  },
+  {
+    "label": "USDJPY_1h",
+    "theta": 0.006673,
+    "n_events": 563,
+    "base_rate": 0.8614564831261101,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.008035392625077284,
+    "mean_ret_next_conf": 0.00039046705474714397,
+    "auc_logistic": 0.4981686408977556,
+    "top_tercile_net_logistic": -0.0003715315015868452,
+    "auc_gboost": 0.4664510598503741,
+    "top_tercile_net_gboost": -0.0006299971835545545,
+    "shuffle_auc_95band": [
+      0.4319759065076443,
+      0.5728432248307247
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0008340729706675726
+  },
+  {
+    "label": "USDJPY_1h",
+    "theta": 0.010009,
+    "n_events": 311,
+    "base_rate": 0.8810289389067524,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.01067475004194441,
+    "mean_ret_next_conf": -0.000455576824477836,
+    "auc_logistic": 0.47525925925925927,
+    "top_tercile_net_logistic": 0.00043951941493900387,
+    "auc_gboost": 0.49992592592592594,
+    "top_tercile_net_gboost": 0.00048116469496205884,
+    "shuffle_auc_95band": [
+      0.37083197260674594,
+      0.5849729929195474
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0008340729706675726
+  },
+  {
+    "label": "USDJPY_1h",
+    "theta": 0.013345,
+    "n_events": 169,
+    "base_rate": 0.9467455621301775,
+    "cost_rt": 0.0005,
+    "mean_os_move": 0.015898792816304838,
+    "mean_ret_next_conf": 0.0013180636855937612,
+    "auc_logistic": 0.5891156462585034,
+    "top_tercile_net_logistic": -0.0014634310865041435,
+    "auc_gboost": 0.32517006802721093,
+    "top_tercile_net_gboost": -0.0012568238744972502,
+    "shuffle_auc_95band": [
+      0.2947644589552239,
+      0.6568735827664399
+    ],
+    "asset_class": "fx",
+    "timeframe": "1h",
+    "sigma_bar": 0.0008340729706675726
+  },
+  {
+    "label": "XRPUSDT_15m",
+    "theta": 0.030616,
+    "n_events": 2858,
+    "base_rate": 0.8324002799160252,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.036842535279632625,
+    "mean_ret_next_conf": -0.0004921496733970394,
+    "auc_logistic": 0.5214013705262002,
+    "top_tercile_net_logistic": -0.002455037616131922,
+    "auc_gboost": 0.5215199065686436,
+    "top_tercile_net_gboost": -0.001152641087679844,
+    "shuffle_auc_95band": [
+      0.46957573171908434,
+      0.526855467081585
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003827004474742867
+  },
+  {
+    "label": "XRPUSDT_15m",
+    "theta": 0.045924,
+    "n_events": 1543,
+    "base_rate": 0.8522359040829552,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.05251464465746189,
+    "mean_ret_next_conf": -0.0010480511306607836,
+    "auc_logistic": 0.5065403571897078,
+    "top_tercile_net_logistic": 0.0005198904967965764,
+    "auc_gboost": 0.5341073068345795,
+    "top_tercile_net_gboost": -0.00026712098553472103,
+    "shuffle_auc_95band": [
+      0.4618603765692895,
+      0.5261477599955909
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003827004474742867
+  },
+  {
+    "label": "XRPUSDT_15m",
+    "theta": 0.061232,
+    "n_events": 971,
+    "base_rate": 0.8795056642636457,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.06711959652653941,
+    "mean_ret_next_conf": -0.0035383118232392217,
+    "auc_logistic": 0.49858288120495586,
+    "top_tercile_net_logistic": -0.0027161091316179587,
+    "auc_gboost": 0.5596809458255729,
+    "top_tercile_net_gboost": -0.00256622296958273,
+    "shuffle_auc_95band": [
+      0.4677718890447689,
+      0.5422757703886615
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003827004474742867
+  },
+  {
+    "label": "XRPUSDT_15m",
+    "theta": 0.091848,
+    "n_events": 497,
+    "base_rate": 0.8792756539235412,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.09649382573079682,
+    "mean_ret_next_conf": -0.007010957840452303,
+    "auc_logistic": 0.5608888888888889,
+    "top_tercile_net_logistic": -0.023093177570933925,
+    "auc_gboost": 0.5751666666666667,
+    "top_tercile_net_gboost": -0.009941217303671092,
+    "shuffle_auc_95band": [
+      0.42709954796332206,
+      0.5622097222222222
+    ],
+    "asset_class": "crypto",
+    "timeframe": "15m",
+    "sigma_bar": 0.003827004474742867
+  },
+  {
+    "label": "XRPUSDT_1h",
+    "theta": 0.061994,
+    "n_events": 689,
+    "base_rate": 0.8258345428156749,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.07376359229003378,
+    "mean_ret_next_conf": -0.0012594521882499576,
+    "auc_logistic": 0.5430212765957446,
+    "top_tercile_net_logistic": 0.005952787406515672,
+    "auc_gboost": 0.5605531914893617,
+    "top_tercile_net_gboost": 0.0082320312862199,
+    "shuffle_auc_95band": [
+      0.44344983005763267,
+      0.5667135137728277
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.007749206352437001
+  },
+  {
+    "label": "XRPUSDT_1h",
+    "theta": 0.09299,
+    "n_events": 358,
+    "base_rate": 0.8491620111731844,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.1109213070253119,
+    "mean_ret_next_conf": 0.0016545695470434054,
+    "auc_logistic": 0.6184943345496446,
+    "top_tercile_net_logistic": 0.0011668939897876882,
+    "auc_gboost": 0.5672652198962935,
+    "top_tercile_net_gboost": 0.0009866395026171919,
+    "shuffle_auc_95band": [
+      0.42294987516804305,
+      0.5846665633074936
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.007749206352437001
+  },
+  {
+    "label": "XRPUSDT_1h",
+    "theta": 0.123987,
+    "n_events": 223,
+    "base_rate": 0.8385650224215246,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.1473666480884183,
+    "mean_ret_next_conf": 0.002393117165732306,
+    "auc_logistic": 0.5203349282296651,
+    "top_tercile_net_logistic": 0.030486024480690384,
+    "auc_gboost": 0.4647129186602871,
+    "top_tercile_net_gboost": 0.02505523731497275,
+    "shuffle_auc_95band": [
+      0.4282445910973085,
+      0.5907566747836674
+    ],
+    "asset_class": "crypto",
+    "timeframe": "1h",
+    "sigma_bar": 0.007749206352437001
+  },
+  {
+    "label": "XRPUSDT_4h",
+    "theta": 0.121142,
+    "n_events": 167,
+    "base_rate": 0.8323353293413174,
+    "cost_rt": 0.0012,
+    "mean_os_move": 0.1637660728796086,
+    "mean_ret_next_conf": 0.012575412531054462,
+    "auc_logistic": 0.6865615615615617,
+    "top_tercile_net_logistic": 0.02259000971239683,
+    "auc_gboost": 0.45720720720720726,
+    "top_tercile_net_gboost": -0.02906355575988484,
+    "shuffle_auc_95band": [
+      0.4043543845534996,
+      0.6167499999999999
+    ],
+    "asset_class": "crypto",
+    "timeframe": "4h",
+    "sigma_bar": 0.015142704693819046
+  }
+]
